@@ -6,8 +6,6 @@ Uses ping to check internet connection
 # Usage
 ```
 $ chmod +x internet-check.sh
-```
-```
 $ ./internet-check.sh [-d] [-c] [-i] [-p PING_ADDRESS]
 ```
   -d  Alert if internet disconnects and exit
