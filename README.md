@@ -8,10 +8,11 @@ Uses ping to check internet connection
 $ chmod +x internet-check.sh
 $ ./internet-check.sh [-d] [-c] [-i] [-p PING_ADDRESS]
 ```
-  -d  Alert if internet disconnects and exit
-  -c  Alert if internet connects and exit
-  -i  Do not exit after connect/disconnect. If connected, continue check for disconnect and vise versa.
-      To be used for continuous background operation
+  -d  Alert if internet *disconnects* and **exit**
+  
+  -c  Alert if internet *connects* and **exit**
+  
+  -i  **Do not exit** after connect/disconnect. If connected, continue check for disconnect and vise versa. To be used for continuous background operation
      
 # Usage as a startup application
 
